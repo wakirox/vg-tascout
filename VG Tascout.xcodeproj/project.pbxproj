@@ -14,6 +14,9 @@
 		F29289791CAAB38300DD6C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29289771CAAB38300DD6C8B /* LaunchScreen.storyboard */; };
 		F29289841CAAB38300DD6C8B /* VG_TascoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29289831CAAB38300DD6C8B /* VG_TascoutTests.swift */; };
 		F292898F1CAAB38300DD6C8B /* VG_TascoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292898E1CAAB38300DD6C8B /* VG_TascoutUITests.swift */; };
+		F29289A01CAABAC700DD6C8B /* DownloadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292899F1CAABAC700DD6C8B /* DownloadList.swift */; };
+		F29289A21CAABB5D00DD6C8B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29289A11CAABB5D00DD6C8B /* Post.swift */; };
+		F29289A41CAABB7500DD6C8B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29289A31CAABB7500DD6C8B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F292898A1CAAB38300DD6C8B /* VG TascoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VG TascoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F292898E1CAAB38300DD6C8B /* VG_TascoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VG_TascoutUITests.swift; sourceTree = "<group>"; };
 		F29289901CAAB38300DD6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F292899F1CAABAC700DD6C8B /* DownloadList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadList.swift; sourceTree = "<group>"; };
+		F29289A11CAABB5D00DD6C8B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F29289A31CAABB7500DD6C8B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		F292896D1CAAB38300DD6C8B /* VG Tascout */ = {
 			isa = PBXGroup;
 			children = (
+				F292899E1CAABAAB00DD6C8B /* Utils */,
+				F292899D1CAABAA400DD6C8B /* Entities */,
+				F292899C1CAABA9200DD6C8B /* Views */,
 				F292896E1CAAB38300DD6C8B /* AppDelegate.swift */,
 				F29289701CAAB38300DD6C8B /* ViewController.swift */,
 				F29289721CAAB38300DD6C8B /* Main.storyboard */,
@@ -123,6 +132,30 @@
 				F29289901CAAB38300DD6C8B /* Info.plist */,
 			);
 			path = "VG TascoutUITests";
+			sourceTree = "<group>";
+		};
+		F292899C1CAABA9200DD6C8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F292899D1CAABAA400DD6C8B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F29289A11CAABB5D00DD6C8B /* Post.swift */,
+				F29289A31CAABB7500DD6C8B /* User.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		F292899E1CAABAAB00DD6C8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F292899F1CAABAC700DD6C8B /* DownloadList.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +291,9 @@
 			files = (
 				F29289711CAAB38300DD6C8B /* ViewController.swift in Sources */,
 				F292896F1CAAB38300DD6C8B /* AppDelegate.swift in Sources */,
+				F29289A01CAABAC700DD6C8B /* DownloadList.swift in Sources */,
+				F29289A41CAABB7500DD6C8B /* User.swift in Sources */,
+				F29289A21CAABB5D00DD6C8B /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
