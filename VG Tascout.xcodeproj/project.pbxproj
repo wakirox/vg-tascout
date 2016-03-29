@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F292896F1CAAB38300DD6C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292896E1CAAB38300DD6C8B /* AppDelegate.swift */; };
+		F29289711CAAB38300DD6C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29289701CAAB38300DD6C8B /* ViewController.swift */; };
+		F29289741CAAB38300DD6C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29289721CAAB38300DD6C8B /* Main.storyboard */; };
+		F29289761CAAB38300DD6C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29289751CAAB38300DD6C8B /* Assets.xcassets */; };
+		F29289791CAAB38300DD6C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29289771CAAB38300DD6C8B /* LaunchScreen.storyboard */; };
+		F29289841CAAB38300DD6C8B /* VG_TascoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29289831CAAB38300DD6C8B /* VG_TascoutTests.swift */; };
+		F292898F1CAAB38300DD6C8B /* VG_TascoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292898E1CAAB38300DD6C8B /* VG_TascoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29289801CAAB38300DD6C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29289631CAAB38300DD6C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292896A1CAAB38300DD6C8B;
+			remoteInfo = "VG Tascout";
+		};
+		F292898B1CAAB38300DD6C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29289631CAAB38300DD6C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292896A1CAAB38300DD6C8B;
+			remoteInfo = "VG Tascout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F292896B1CAAB38300DD6C8B /* VG Tascout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VG Tascout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292896E1CAAB38300DD6C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F29289701CAAB38300DD6C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F29289731CAAB38300DD6C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F29289751CAAB38300DD6C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F29289781CAAB38300DD6C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F292897A1CAAB38300DD6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F292897F1CAAB38300DD6C8B /* VG TascoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VG TascoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29289831CAAB38300DD6C8B /* VG_TascoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VG_TascoutTests.swift; sourceTree = "<group>"; };
+		F29289851CAAB38300DD6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F292898A1CAAB38300DD6C8B /* VG TascoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VG TascoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292898E1CAAB38300DD6C8B /* VG_TascoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VG_TascoutUITests.swift; sourceTree = "<group>"; };
+		F29289901CAAB38300DD6C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29289681CAAB38300DD6C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292897C1CAAB38300DD6C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29289871CAAB38300DD6C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29289621CAAB38300DD6C8B = {
+			isa = PBXGroup;
+			children = (
+				F292896D1CAAB38300DD6C8B /* VG Tascout */,
+				F29289821CAAB38300DD6C8B /* VG TascoutTests */,
+				F292898D1CAAB38300DD6C8B /* VG TascoutUITests */,
+				F292896C1CAAB38300DD6C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F292896C1CAAB38300DD6C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F292896B1CAAB38300DD6C8B /* VG Tascout.app */,
+				F292897F1CAAB38300DD6C8B /* VG TascoutTests.xctest */,
+				F292898A1CAAB38300DD6C8B /* VG TascoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F292896D1CAAB38300DD6C8B /* VG Tascout */ = {
+			isa = PBXGroup;
+			children = (
+				F292896E1CAAB38300DD6C8B /* AppDelegate.swift */,
+				F29289701CAAB38300DD6C8B /* ViewController.swift */,
+				F29289721CAAB38300DD6C8B /* Main.storyboard */,
+				F29289751CAAB38300DD6C8B /* Assets.xcassets */,
+				F29289771CAAB38300DD6C8B /* LaunchScreen.storyboard */,
+				F292897A1CAAB38300DD6C8B /* Info.plist */,
+			);
+			path = "VG Tascout";
+			sourceTree = "<group>";
+		};
+		F29289821CAAB38300DD6C8B /* VG TascoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				F29289831CAAB38300DD6C8B /* VG_TascoutTests.swift */,
+				F29289851CAAB38300DD6C8B /* Info.plist */,
+			);
+			path = "VG TascoutTests";
+			sourceTree = "<group>";
+		};
+		F292898D1CAAB38300DD6C8B /* VG TascoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F292898E1CAAB38300DD6C8B /* VG_TascoutUITests.swift */,
+				F29289901CAAB38300DD6C8B /* Info.plist */,
+			);
+			path = "VG TascoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F292896A1CAAB38300DD6C8B /* VG Tascout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29289931CAAB38300DD6C8B /* Build configuration list for PBXNativeTarget "VG Tascout" */;
+			buildPhases = (
+				F29289671CAAB38300DD6C8B /* Sources */,
+				F29289681CAAB38300DD6C8B /* Frameworks */,
+				F29289691CAAB38300DD6C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VG Tascout";
+			productName = "VG Tascout";
+			productReference = F292896B1CAAB38300DD6C8B /* VG Tascout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F292897E1CAAB38300DD6C8B /* VG TascoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29289961CAAB38300DD6C8B /* Build configuration list for PBXNativeTarget "VG TascoutTests" */;
+			buildPhases = (
+				F292897B1CAAB38300DD6C8B /* Sources */,
+				F292897C1CAAB38300DD6C8B /* Frameworks */,
+				F292897D1CAAB38300DD6C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29289811CAAB38300DD6C8B /* PBXTargetDependency */,
+			);
+			name = "VG TascoutTests";
+			productName = "VG TascoutTests";
+			productReference = F292897F1CAAB38300DD6C8B /* VG TascoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F29289891CAAB38300DD6C8B /* VG TascoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29289991CAAB38300DD6C8B /* Build configuration list for PBXNativeTarget "VG TascoutUITests" */;
+			buildPhases = (
+				F29289861CAAB38300DD6C8B /* Sources */,
+				F29289871CAAB38300DD6C8B /* Frameworks */,
+				F29289881CAAB38300DD6C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F292898C1CAAB38300DD6C8B /* PBXTargetDependency */,
+			);
+			name = "VG TascoutUITests";
+			productName = "VG TascoutUITests";
+			productReference = F292898A1CAAB38300DD6C8B /* VG TascoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29289631CAAB38300DD6C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tascout;
+				TargetAttributes = {
+					F292896A1CAAB38300DD6C8B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F292897E1CAAB38300DD6C8B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F292896A1CAAB38300DD6C8B;
+					};
+					F29289891CAAB38300DD6C8B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F292896A1CAAB38300DD6C8B;
+					};
+				};
+			};
+			buildConfigurationList = F29289661CAAB38300DD6C8B /* Build configuration list for PBXProject "VG Tascout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29289621CAAB38300DD6C8B;
+			productRefGroup = F292896C1CAAB38300DD6C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F292896A1CAAB38300DD6C8B /* VG Tascout */,
+				F292897E1CAAB38300DD6C8B /* VG TascoutTests */,
+				F29289891CAAB38300DD6C8B /* VG TascoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29289691CAAB38300DD6C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29289791CAAB38300DD6C8B /* LaunchScreen.storyboard in Resources */,
+				F29289761CAAB38300DD6C8B /* Assets.xcassets in Resources */,
+				F29289741CAAB38300DD6C8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292897D1CAAB38300DD6C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29289881CAAB38300DD6C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29289671CAAB38300DD6C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29289711CAAB38300DD6C8B /* ViewController.swift in Sources */,
+				F292896F1CAAB38300DD6C8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292897B1CAAB38300DD6C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29289841CAAB38300DD6C8B /* VG_TascoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29289861CAAB38300DD6C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292898F1CAAB38300DD6C8B /* VG_TascoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29289811CAAB38300DD6C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292896A1CAAB38300DD6C8B /* VG Tascout */;
+			targetProxy = F29289801CAAB38300DD6C8B /* PBXContainerItemProxy */;
+		};
+		F292898C1CAAB38300DD6C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292896A1CAAB38300DD6C8B /* VG Tascout */;
+			targetProxy = F292898B1CAAB38300DD6C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F29289721CAAB38300DD6C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29289731CAAB38300DD6C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F29289771CAAB38300DD6C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29289781CAAB38300DD6C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29289911CAAB38300DD6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29289921CAAB38300DD6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29289941CAAB38300DD6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VG Tascout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tascout.VG-Tascout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F29289951CAAB38300DD6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VG Tascout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tascout.VG-Tascout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F29289971CAAB38300DD6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VG TascoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tascout.VG-TascoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VG Tascout.app/VG Tascout";
+			};
+			name = Debug;
+		};
+		F29289981CAAB38300DD6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VG TascoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tascout.VG-TascoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VG Tascout.app/VG Tascout";
+			};
+			name = Release;
+		};
+		F292899A1CAAB38300DD6C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VG TascoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tascout.VG-TascoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VG Tascout";
+			};
+			name = Debug;
+		};
+		F292899B1CAAB38300DD6C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VG TascoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tascout.VG-TascoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VG Tascout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29289661CAAB38300DD6C8B /* Build configuration list for PBXProject "VG Tascout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29289911CAAB38300DD6C8B /* Debug */,
+				F29289921CAAB38300DD6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29289931CAAB38300DD6C8B /* Build configuration list for PBXNativeTarget "VG Tascout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29289941CAAB38300DD6C8B /* Debug */,
+				F29289951CAAB38300DD6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F29289961CAAB38300DD6C8B /* Build configuration list for PBXNativeTarget "VG TascoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29289971CAAB38300DD6C8B /* Debug */,
+				F29289981CAAB38300DD6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F29289991CAAB38300DD6C8B /* Build configuration list for PBXNativeTarget "VG TascoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F292899A1CAAB38300DD6C8B /* Debug */,
+				F292899B1CAAB38300DD6C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29289631CAAB38300DD6C8B /* Project object */;
+}
